@@ -1,7 +1,12 @@
 <resources>
-    <string name="app">First App</string>
-    <string name="vlue_hint">设置</string>
-    <string name="str">hello</string>
-    <string name="butt">button</string>
+    <string name="activity_main">First App</string>
+    <string name="hello">Happy Birthday</string>
+    <string name="from">Your ZUO</string>
+    <string name="actions_ettings">First app</string>
+    <string name="action_settings">set</string>
+    <string name="btn_lable1">Button</string>
+    <string name="show_lable1">Hello andrio</string>
+
+
 
 </resources>

@@ -1,47 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xlm version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:andriod="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    andriod:id="@+id/activity_main"
+    andriod:layout_width="match_parent"
+    andriod:layout_height="match_parent"
+    andriod:orientation="vertical"
+    >
+
+    <ImageView
+        andriod:id="@+id/imageView"
+        andriod:layout_width="match_parent"
+        andriod:layout_height="match_parent"
+        andriod:layout_alignParentTop="true"
+        andriod:layout_marginTop="0dp"
+        andriod:contentDescription="@string/activity_main"
+        andriod:scaleType="centerCrop"
+        app:srcCompat="@mipmap/bg" />
 
     <TextView
-        android:id="@+id/TextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:gravity="center"
-        android:text="@string/str"
-        android:textSize="35sp" />
+        andriod:id="@+id/textView"
+        andriod:layout_width="215dp"
+        andriod:layout_height="79dp"
+        andriod:layout_alignParentTop="true"
+        andriod:layout_centerHorizontal="true"
+        andriod:layout_marginTop="75dp"
+        andriod:gravity="center"
+        andriod:text="@string/hello"
+        andriod:textSize="25sp" />
 
     <TextView
-        android:id="@+id/showview"
-        android:layout_width="match_parent"
-        android:layout_height="64dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp"
-        android:gravity="center"
-        android:text="@string/str" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/butt" />
-
-    <EditText
-        android:id="@+id/inputText"
-        style="@style/Base.Widget.MaterialComponents.TextInputEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:autofillHints=""
-        android:ems="10"
-        android:importantForAutofill="no"
-        android:inputType="textPersonName"
-        android:text="@string/vlue_hint" />
+        andriod:id="@+id/textView2"
+        andriod:layout_width="wrap_content"
+        andriod:layout_height="wrap_content"
+        andriod:layout_alignParentEnd="true"
+        andriod:layout_alignParentRight="true"
+        andriod:layout_alignParentBottom="true"
+        andriod:layout_marginEnd="23dp"
+        andriod:layout_marginRight="23dp"
+        andriod:layout_marginBottom="15dp"
+        andriod:text="@string/from"
+        andriod:textSize="18sp"
+        andriod:textColor="@color/colorAccent" />
 
 
-</LinearLayout>
+
+
+</RelativeLayout>

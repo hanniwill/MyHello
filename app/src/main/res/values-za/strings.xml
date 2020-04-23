@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">First App</string>
-    <string name="vlue_hint">设置</string>
-    <string name="str">你好</string>
-    <string name="butt">按钮</string>
+    <string name="hello">生日快乐</string>
+    <string name="activity_main">软件1</string>
+    <string name="from">左</string>
+    <string name="actions_ettings">程序一</string>
+    <string name="action_settings">设置</string>
+    <string name="btn_lable1">按钮</string>
+    <string name="show_lable1">你好安卓</string>
+
 </resources>
